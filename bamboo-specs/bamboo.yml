@@ -14,4 +14,4 @@ stages:
 Job 1:
   tasks:
     - script:
-        - docker run --rm --add-host qa.fortidevsec.forticloud.com:10.34.160.14 --mount type=bind,source="$PWD",target=/scan  dops-registry.fortinet-us.com/fortidevsecops/fdevsec_sast:latest
+        - docker run hello-world
