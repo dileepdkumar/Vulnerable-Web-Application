@@ -1,0 +1,22 @@
+version: v1
+
+id:
+  org: ee697602-d593-42b3-a1c9-e94669e64f94
+  app: e08fbb13-103a-45cf-86d2-e449553b5140
+
+scanners:
+  - sast
+  - sca
+  - secret
+  - dast
+
+dast:
+  url: https://your.url.com
+  fortipentest_scanner: true #true|false
+  full_scan: false #true|false
+	
+resource:
+  serial_scan: false
+
+on_prem:
+  sec_ops_server: https://qa.fortidevsec.forticloud.com/
