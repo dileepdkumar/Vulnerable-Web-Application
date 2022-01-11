@@ -11,8 +11,8 @@ scanners:
   - dast
 
 dast:
-  url: https://your.url.com
-  fortipentest_scanner: true #true|false
+  url: http://10.36.234.10/xvwa/
+  fortipentest_scanner: false #true|false
   full_scan: false #true|false
 	
 resource:
