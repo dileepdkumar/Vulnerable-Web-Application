@@ -1,8 +1,6 @@
-— —
-
 version: 2
 plan:
-  project-key: WEB
+  project-key: DEM
   key: PLAN
   name: My Plan
 
