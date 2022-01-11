@@ -3,7 +3,7 @@ version: 2
 plan:
   project-key: WEB
   key: PLAN
-  name: My Spec Plan
+  name: My Plan
 
 stages:
   - Stage 1:
