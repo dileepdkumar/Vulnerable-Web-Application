@@ -1,4 +1,3 @@
-— —
 version: 2
 plan:
   project-key: WEB
@@ -13,4 +12,4 @@ stages:
 Job 1:
   tasks:
     - script:
-        - echo 'Hello from Updated YAML Specs'
+        - echo 'Hello from YAML Specs'
