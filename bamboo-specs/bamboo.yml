@@ -13,5 +13,3 @@ Job 1:
   tasks:
     - script:
         - docker run hello-world
-     - script: 
-        - whoami
