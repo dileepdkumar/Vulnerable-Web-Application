@@ -1,6 +1,6 @@
 version: 2
 plan:
-  project-key: TES
+  project-key: WEB
   key: PLAN
   name: My Plan
 
