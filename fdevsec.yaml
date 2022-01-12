@@ -2,7 +2,7 @@ version: v1
 
 id:
   org: ee697602-d593-42b3-a1c9-e94669e64f94
-  app: e08fbb13-103a-45cf-86d2-e449553b5140
+  app: eacc7f8d-ca92-443e-852d-f3009daa3f73
 
 scanners:
   - sast
@@ -11,14 +11,7 @@ scanners:
   - dast
 
 languages:
-- python
-- go
-- ruby
 - php
-- java
-- C
-- C++
-- javascript
 
 dast:
   url: http://10.36.234.10/xvwa/
