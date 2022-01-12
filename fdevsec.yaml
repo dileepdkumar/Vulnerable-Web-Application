@@ -10,6 +10,16 @@ scanners:
   - secret
   - dast
 
+languages:
+- python
+- go
+- ruby
+- php
+- java
+- C
+- C++
+- javascript
+
 dast:
   url: http://10.36.234.10/xvwa/
   fortipentest_scanner: false #true|false
