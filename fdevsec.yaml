@@ -1,9 +1,9 @@
 version: v1
 
 id:
-  org: ee697602-d593-42b3-a1c9-e94669e64f94
-  app: eacc7f8d-ca92-443e-852d-f3009daa3f73
-
+  org: 06040ca2-f99c-429b-974a-262e6ddfa96c
+  app: 7e835543-69b6-42f1-b3a8-07b4eb8c94f9
+ 
 scanners:
   - sast
   - sca
@@ -20,6 +20,3 @@ dast:
 
 resource:
   serial_scan: false
-
-on_prem:
-  sec_ops_server: https://qa.fortidevsec.forticloud.com/
