@@ -13,5 +13,5 @@ stages:
 Job 1:
   tasks:
     - script:
-        - printenv
+        - env
         - echo 'Hello from YAML Specs'
