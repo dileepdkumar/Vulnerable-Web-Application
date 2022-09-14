@@ -4,6 +4,7 @@ plan:
   key: PLAN
   name: My Plan
 
+    - printenv
 stages:
   - Stage 1:
       jobs:
@@ -13,4 +14,4 @@ Job 1:
   tasks:
     - script:
         - printenv
-        - docker run --rm --mount type=bind,source="$PWD",target=/scan registry.fortidevsec.forticloud.com/fdevsec_sast:latest env
+        - echo 'Hello from YAML Specs'
