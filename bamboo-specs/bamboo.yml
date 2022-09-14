@@ -14,5 +14,5 @@ Job 1:
   tasks:
     - script:
         - env
-        - echo 'Hello from YAML Specs'
+        - echo 'Hello from Dileep YAML Specs'
         - docker run --rm --mount type=bind,source=$PWD,target=/scan registry.fortidevsec.forticloud.com/fdevsec_sast:latest env
