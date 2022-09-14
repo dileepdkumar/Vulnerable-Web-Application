@@ -1,6 +1,6 @@
 version: 2
 plan:
-  project-key: WEB
+  project-key: TDS
   key: PLAN
   name: My Plan
 
