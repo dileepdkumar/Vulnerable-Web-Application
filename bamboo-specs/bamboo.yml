@@ -4,7 +4,6 @@ plan:
   key: PLAN
   name: My Plan
 
-    - printenv
 stages:
   - Stage 1:
       jobs:
